@@ -1,0 +1,49 @@
+Submitting assignment 3 from p135.ecf.utoronto.ca
+Checking for the expected files in the current directory
+parser.cpp Shape.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+g++ -std=c++11 -I/u/course/ece244i/public/3/common -c -g parser.cpp -o parser.o
+g++ -std=c++11 -I/u/course/ece244i/public/3/common -c -g Shape.cpp -o Shape.o
+g++ -std=c++11 parser.o Shape.o -o parser
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'parser'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 4 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 3
+total 60
+-rw-r----- 1 submit ece244gp 26216 Nov  1 16:14 parser.cpp
+-rw-r----- 1 submit ece244gp  1586 Nov  1 16:14 Shape.cpp
+-rw-r----- 1 submit ece244gp  1688 Oct 17 00:17 submit_log.1017001657
+-rw-r----- 1 submit ece244gp  1756 Nov  1 11:49 submit_log.1101114949
+-rw-r----- 1 submit ece244gp  1825 Nov  1 12:31 submit_log.1101123145
+-rw-r----- 1 submit ece244gp  1895 Nov  1 12:43 submit_log.1101124332
+-rw-r----- 1 submit ece244gp  1966 Nov  1 15:49 submit_log.1101154931
+-rw-r----- 1 submit ece244gp  2036 Nov  1 15:50 submit_log.1101155031
+-rw-r----- 1 submit ece244gp  2106 Nov  1 16:12 submit_log.1101161254
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
